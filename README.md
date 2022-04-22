@@ -2,7 +2,7 @@ The corona plague broke out about two years ago and has increased the feeling of
 
 The website is built in HTTP5, CSS3, and JS and contains:
 
-- Pictures 
+- Pictures. 
 - Playlist of music from YouTube.
 - Option to like a Facebook page.
 - Option to scan QR that leads to the site.
