@@ -98,7 +98,7 @@
     <input type="email" name="mail"><br>
     <h2>message:</h2><br>
     <input id="message" type="text" name="comment" style="width:100%;" >
-    <select id="emojis" onchange="appendEmoji()" style="background-color: #18aba9;">
+    <select id="emojis" onchange="addPickedEmoji()" style="background-color: #18aba9;">
       <option value="&#128151">&#128151</option>
       <option value="&#128068">&#128068</option>
       <option value="&#128536">&#128536</option>
@@ -154,11 +154,11 @@
     </section></center>
 
 <script type="text/javascript">
-  function appendEmoji() {
+  function addPickedEmoji() {
     var emojis = document.getElementById("emojis");
-    var chosenEmoji = emojis.value;
-    var textBox = document.getElementById("message");
-    textBox.value += chosenEmoji;
+    var pickedEmoji = emojis.value;
+    var inputArea = document.getElementById("message");
+    inputArea.value += pickedEmoji;
   }
 </script>
 <script type="text/javascript">
