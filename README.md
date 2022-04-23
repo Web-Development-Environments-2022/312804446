@@ -6,7 +6,7 @@ The website is built in HTTP5, CSS3, and JS and contains:
 - Playlist of music from YouTube.
 - Option to like a Facebook page.
 - Option to scan QR that leads to the site.
-- Option to contact us via email - using the formspree website for sending the email.
+- Option to contact us via email.
 - Questions and Answers about the difference between web1, web2, and web3.
 
 user name: diank 
